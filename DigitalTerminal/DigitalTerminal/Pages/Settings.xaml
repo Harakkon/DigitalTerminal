@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DigitalTerminal.Pages.Settings"
+             Title="Настройки">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout>
+                    <Label Text="UUID Сервиса"/>
+                    <Entry x:Name="EntryUUIDs" Text="0000ffe0-0000-1000-8000-00805f9b34fb"/>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="UUID Характеристики"/>
+                    <Entry x:Name="EntryUUIDc" Text="0000ffe1-0000-1000-8000-00805f9b34fb"/>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Время задержки"/>
+                    <Entry x:Name="EntryTimeDelay" Text="10"/>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Предельное значение"/>
+                    <Entry x:Name="EntryAlertValue"  Text="50"/>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Адресс webDav"/>
+                    <Entry x:Name="EntryWebDavAdress"  Placeholder="webDavAdress" Text="https://webdav.yandex.ru"/>
+                    <Label Text="Логин"/>
+                    <Entry x:Name="EntryLogin"  Placeholder="Логин" Text="kgeutestmail@ya.ru"/>
+                    <Label Text="Пароль"/>
+                    <Entry  x:Name="EntryPasword" Placeholder="Пароль" Text="qwerty1234"/>
+                    <Button Clicked="LoginButton_Clicked_1" Text="Вход"/>
+                </StackLayout>
+                <StackLayout >
+                    <Button HorizontalOptions="CenterAndExpand" VerticalOptions="End" Text="Сохранить" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

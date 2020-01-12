@@ -1,0 +1,14 @@
+C:\Users\Harakkon\Desktop\Xamarin\DigitalTerminal\DigitalTerminal\DigitalTerminal\bin\Release\netstandard2.0\DigitalTerminal.deps.json
+C:\Users\Harakkon\Desktop\Xamarin\DigitalTerminal\DigitalTerminal\DigitalTerminal\bin\Release\netstandard2.0\DigitalTerminal.dll
+C:\Users\Harakkon\Desktop\Xamarin\DigitalTerminal\DigitalTerminal\DigitalTerminal\bin\Release\netstandard2.0\DigitalTerminal.pdb
+C:\Users\Harakkon\Desktop\Xamarin\DigitalTerminal\DigitalTerminal\DigitalTerminal\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Harakkon\Desktop\Xamarin\DigitalTerminal\DigitalTerminal\DigitalTerminal\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Harakkon\Desktop\Xamarin\DigitalTerminal\DigitalTerminal\DigitalTerminal\obj\Release\netstandard2.0\Pages\Connection.xaml.g.cs
+C:\Users\Harakkon\Desktop\Xamarin\DigitalTerminal\DigitalTerminal\DigitalTerminal\obj\Release\netstandard2.0\Pages\Settings.xaml.g.cs
+C:\Users\Harakkon\Desktop\Xamarin\DigitalTerminal\DigitalTerminal\DigitalTerminal\obj\Release\netstandard2.0\Pages\Terminal.xaml.g.cs
+C:\Users\Harakkon\Desktop\Xamarin\DigitalTerminal\DigitalTerminal\DigitalTerminal\obj\Release\netstandard2.0\DigitalTerminal.csproj.CoreCompileInputs.cache
+C:\Users\Harakkon\Desktop\Xamarin\DigitalTerminal\DigitalTerminal\DigitalTerminal\obj\Release\netstandard2.0\DigitalTerminal.AssemblyInfoInputs.cache
+C:\Users\Harakkon\Desktop\Xamarin\DigitalTerminal\DigitalTerminal\DigitalTerminal\obj\Release\netstandard2.0\DigitalTerminal.AssemblyInfo.cs
+C:\Users\Harakkon\Desktop\Xamarin\DigitalTerminal\DigitalTerminal\DigitalTerminal\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Harakkon\Desktop\Xamarin\DigitalTerminal\DigitalTerminal\DigitalTerminal\obj\Release\netstandard2.0\DigitalTerminal.dll
+C:\Users\Harakkon\Desktop\Xamarin\DigitalTerminal\DigitalTerminal\DigitalTerminal\obj\Release\netstandard2.0\DigitalTerminal.pdb

@@ -1,0 +1,68 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\IconBluetooth.png" />
+    <None Remove="Images\IconConnect.png" />
+    <None Remove="Images\IconPhone.png" />
+    <None Remove="Images\kgeu_logo.jpg" />
+    <None Remove="Images\kgeu_logo.png" />
+    <None Remove="Images\send-button.png" />
+    <None Remove="Images\Switch.png" />
+    <None Remove="Images\SwitchFlags.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\IconBluetooth.png" />
+    <EmbeddedResource Include="Images\IconConnect.png" />
+    <EmbeddedResource Include="Images\IconPhone.png" />
+    <EmbeddedResource Include="Images\kgeu_logo.jpg" />
+    <EmbeddedResource Include="Images\kgeu_logo.png" />
+    <EmbeddedResource Include="Images\send-button.png" />
+    <EmbeddedResource Include="Images\Switch.png" />
+    <EmbeddedResource Include="Images\SwitchFlags.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OxyPlot.Core" Version="2.0.0-unstable1035" />
+    <PackageReference Include="OxyPlot.Xamarin.Forms" Version="1.1.0-unstable0011" />
+    <PackageReference Include="Plugin.BLE" Version="2.0.0-pre1" />
+    <PackageReference Include="WebDav.Client" Version="2.3.1" />
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="About.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\Connection.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\MeashurmentTabbedPage\Measurement.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\MeashurmentTabbedPage\MeasurementMainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\MeashurmentTabbedPage\MeasurementPlotPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\MeashurmentTabbedPage\MeasurementSavePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\Settings.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\Terminal.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:oxy="clr-namespace:OxyPlot.Xamarin.Forms;assembly=OxyPlot.Xamarin.Forms"
+             x:Class="DigitalTerminal.Pages.MeashurmentTabbedPage.MeasurementPlotPage"
+             Title="График">
+    <ContentPage.Content>
+        <StackLayout x:Name="Stack1">
+            <oxy:PlotView x:Name="OxyPlotView" Model="{Binding Model}" VerticalOptions="Fill" HorizontalOptions="Fill" HeightRequest="500" WidthRequest="500"/>
+            <Label Text="Hello"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

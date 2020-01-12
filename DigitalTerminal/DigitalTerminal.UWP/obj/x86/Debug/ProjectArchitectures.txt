@@ -1,0 +1,1 @@
+C:\Users\Harakkon\Desktop\Xamarin\DigitalTerminal\DigitalTerminal\DigitalTerminal.UWP\DigitalTerminal.UWP.csproj;x86

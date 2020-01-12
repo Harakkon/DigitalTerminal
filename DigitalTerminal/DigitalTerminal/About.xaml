@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DigitalTerminal.About">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image BackgroundColor="Transparent" x:Name="Image"/>
+                <Label FontSize="Medium" Text="Цифровой мультиметр V0.1"/>
+                <Label FontSize="Medium" Text="Создано для защиты дипломной работы"/>
+                <Label FontSize="Medium" Text="Автор: Халилов Амир"/>
+                <Label FontSize="Medium" Text="Использованные библиотеки:"/>
+                <Label FontSize="Small"  Text="OxyPlot v1.1.0 by OxyPlot"/>
+                <Label FontSize="Small"  Text="WebDAav.Client by skazantsev"/>
+                <Label FontSize="Small"  Text="Plugin BLE v1.1.0 by Adrian Seceleanu, Sven-Michael Stübe"/>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

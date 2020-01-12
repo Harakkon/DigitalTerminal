@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DigitalTerminal"
+             x:Class="DigitalTerminal.MainPage"
+             Title="MasterApp">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Master">
+            <ContentPage.Resources>
+                <ResourceDictionary>
+                    <Style x:Key="BorderStyle" TargetType="BoxView">
+                        <Setter Property="HeightRequest" Value="1" />
+                        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                        <Setter Property="Color" Value="Black" />
+                    </Style>
+                    <Style x:Key="ButtonStyle" TargetType="Button">
+                        <Setter Property="BorderColor" Value="Transparent" />
+                        <Setter Property="BackgroundColor" Value="#fafafa" />
+                    </Style>
+                </ResourceDictionary>
+            </ContentPage.Resources>
+            <ContentPage.Content>
+                <ScrollView>
+                    <StackLayout Padding="1,1,1,1" Spacing="0.01">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Image x:Name="ImageMaster" Grid.Column="0"></Image>
+                            <Label Text="Цифровой мультиметр" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"></Label>
+                        </Grid>
+                        <BoxView HeightRequest="5"/>
+                        <BoxView Style="{StaticResource BorderStyle}" />
+                        <Button Text="Измерения" Style="{StaticResource ButtonStyle}" Clicked="Measurment_Clicked"></Button>
+                        <BoxView Style="{StaticResource BorderStyle}" />
+                        <Button Text="Терминал" Style="{StaticResource ButtonStyle}" Clicked="Terminal_Cliced"></Button>
+                        <BoxView Style="{StaticResource BorderStyle}" />
+                        <Button Text="Соединение" Style="{StaticResource ButtonStyle}" Clicked="Connection_Clicked"></Button>
+                        <BoxView Style="{StaticResource BorderStyle}" />
+                        <Button Text="Настройки" Style="{StaticResource ButtonStyle}" Clicked="Settings_Clicked"></Button>
+                        <BoxView Style="{StaticResource BorderStyle}" />
+                        <Button Text="О приложении" Style="{StaticResource ButtonStyle}" Clicked="About_Clicked"></Button>
+                        <BoxView Style="{StaticResource BorderStyle}" />
+                    </StackLayout>
+                </ScrollView>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage>
+            <ContentPage.Content>
+                <Label Text="Hello World!"></Label>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>
